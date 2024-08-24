@@ -1,0 +1,150 @@
+h1 {
+  {{/* font-size: 40px; */}}
+  {{/* margin-bottom: 20px; */}}
+}
+
+.schedule-view {
+    width: 100%;
+    max-width: 75rem;
+    margin: auto;}
+
+
+
+@media (max-width: 768px) {
+  .header-row {
+    display: none;
+  }
+
+  .break-column, .salon-column {
+    flex: 1 0 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+
+  }
+
+  .time-column {
+    background-color: #343a40;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    max-width: 100%;
+     margin-bottom: 10px;
+  }
+
+  .break-column {
+    background-color: #ffc107;
+    color: #343a40;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 18px;
+  }
+
+    .environment-salon {
+    display: block;
+  }
+
+      .schedule-container{
+            flex-direction: column;
+        width: 70%;
+  }
+
+  .filter-button {
+    padding: 20px 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .filter-button {
+    padding: 8px 15px;
+    margin: 0 3px;
+  }
+
+  .break-column {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .speaker-info {
+    padding: 5px;
+  }
+
+  .speaker-image {
+    padding: 5px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .speaker-name {
+    font-size: 28px;
+  }
+
+  .speaker-topic {
+    font-size: 22px;
+  }
+
+  .schedule-container{
+          flex-direction: column;
+      width: 70%;
+  }
+    .filter-button {
+    margin: 0 15px;
+  }
+}
+
+
+
+
+@media (max-width: 903px) {
+  .header-row {
+    display: none;
+  }
+
+  .break-column, .salon-column {
+    flex: 1 0 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+
+  }
+
+  .time-column {
+    background-color: #343a40;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    max-width: 100%;
+     margin-bottom: 10px;
+  }
+
+  .break-column {
+    background-color: #ffc107;
+    color: #343a40;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 18px;
+  }
+
+    .environment-salon {
+    display: block;
+  }
+
+      .schedule-container{
+            flex-direction: column;
+        width: 70%;
+  }
+
+  .filter-button {
+    margin: 0 10px;
+  }
+
+}
+
+@media (max-width: 396px) {
+    .filter-button {
+    margin: 0 10px;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,40 @@
+.principal__fondo {
+  background-image: url("../../../public/img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50rem;
+  width: 100%;
+}
+.principal__filtro {
+  background-image: linear-gradient(to top, #1d1d1d 0%, transparent 100%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50rem;
+  width: 100%;
+  z-index: 0;
+}
+.principal__contenedor {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .principal__fondo {
+    background-image: url("../../../public/img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "sessions": [
+    {
+      "session_id": "1",
+      "session_start_time": "9:30 AM",
+      "session_total_time": "30 Mins",
+      "session_title": "",
+      "session_desc": "",
+      "speaker_image": "./calendar/introduccion.png",
+      "speaker_name": "BIENVENIDA",
+      "speaker_desc": "",
+      "track": "free-time"
+    },
+    {
+      "session_id": "2",
+      "session_start_time": "10:00 AM",
+      "session_total_time": "30 Mins",
+      "session_title": "SIENTO LA NECESIDAD, LA NECESIDAD DE VELOCIDAD",
+      "session_desc": "",
+      "speaker_image": "https://cache.sessionize.com/image/f255-400o400o2-EHuxpTeYPxcChbJtGkUbqM.jpg",
+      "speaker_name": "Vanessa Aristizábal",
+      "speaker_desc": "Google Developer Expert - Colombia",
+      "track": "web"
+    },
+    {
+      "session_id": "3",
+      "session_start_time": "10:30 AM",
+      "session_total_time": "30 Mins",
+      "session_title": "SENIORITY EN LA INDUSTRIA DE TECNOLOGÍA: UNA MIRADA REGIONAL E INTERNACIONAL",
+      "session_desc": "",
+      "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/bruno%20aybar.jpg",
+      "speaker_name": "Bruno Aybar",
+      "speaker_desc": "Senior Software Engineer at Shopify - Perú",
+      "track": "web"
+    },
+    {
+      "session_id": "4",
+      "session_start_time": "11:00 AM",
+      "session_total_time": "20 Mins",
+      "session_title": "",
+      "session_desc": "",
+      "speaker_image": "./calendar/dinamica-de-grupo.png",
+      "speaker_name": "DINÁMICA",
+      "speaker_desc": "",
+      "track": "free-time"
+    },
+    {
+      "session_id": "5",
+      "session_start_time": "11:20 AM",
+      "session_total_time": "30 Mins",
+      "session_title": "LOS VOLUNTARIADOS Y LAS COMUNIDADES SON UNA MUY BUENA OPORTUNIDAD",
+      "session_desc": "",
+      "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/IMG_02%20-%20Gustavo%20Liz%C3%A1rraga.JPG",
+      "speaker_name": "Gustavo Lizárraga",
+      "speaker_desc": "Github Campus Expert - Bolivia",
+      "track": "mobile"
+    },
+    {
+      "session_id": "6",
+      "session_start_time": "11:50 AM",
+      "session_total_time": "30 Mins",
+      "session_title": "CONOCE EL NUEVO ANGULAR V17: EL RENACIMIENTO",
+      "session_desc": "",
+      "speaker_image": "https://img-b.udemycdn.com/user/200_H/26947678_bdf7_3.jpg",
+      "speaker_name": "Bezael Pérez",
+      "speaker_desc": "Google Developer Expert - España",
+      "track": "web"
+    },
+    {
+      "session_id": "7",
+      "session_start_time": "12:30 PM",
+      "session_total_time": "30 Mins",
+      "session_title": "IMAGINA QUE TU YO DEL FUTURO VIENE AL 2024 ¿QUÉ TE DIRÍA?",
+      "session_desc": "",
+      "speaker_image": "./speakers/luis_landa.png",
+      "speaker_name": "Luis Landa Girón",
+      "speaker_desc": "SAFe Scrum Master at Telefónica - Perú",
+      "track": "web"
+    },
+    {
+      "session_id": "8",
+      "session_start_time": "1:00 PM",
+      "session_total_time": "60 Mins",
+      "session_title": "",
+      "session_desc": "",
+      "speaker_image": "./calendar/hora-de-cafe.png",
+      "speaker_name": "BREAK",
+      "speaker_desc": "",
+      "track": "free-time"
+    },
+    {
+      "session_id": "9",
+      "session_start_time": "2:00 PM",
+      "session_total_time": "30 Mins",
+      "session_title": "SMART CITY, MEJORANDO EL ESTILO DE VIDA DE LOS CIUDADANOS A TRAVÉS DE LA IA",
+      "session_desc": "",
+      "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/germanCayo.jpg",
+      "speaker_name": "German Cayo",
+      "speaker_desc": "Presidente Capítulo Industrial y Sistemas - CD Ica - Perú",
+      "track": "datos"
+    },
+    {
+      "session_id": "10",
+      "session_start_time": "2:30 PM",
+      "session_total_time": "30 Mins",
+      "session_title": "IMPULSA TU CARRERA A MOBILE CON IA Y COMPOSE",
+      "session_desc": "",
+      "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/carlo-huaman.jpg",
+      "speaker_name": "Carlo Huamán",
+      "speaker_desc": "Google Developer Expert - Perú",
+      "track": "mobile"
+    },
+    {
+      "session_id": "11",
+      "session_start_time": "3:00 PM",
+      "session_total_time": "30 Mins",
+      "session_title": "¿CÓMO SOBREVIVIR AL DESARROLLO WEB HOY EN DÍA?",
+      "session_desc": "",
+      "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/damian.jpg",
+      "speaker_name": "Damian Sire",
+      "speaker_desc": "Senior Developer - Uruguay",
+      "track": "web"
+    },
+    {
+      "session_id": "12",
+      "session_start_time": "3:30 PM",
+      "session_total_time": "20 Mins",
+      "session_title": "",
+      "session_desc": "",
+      "speaker_image": "./calendar/humano.png",
+      "speaker_name": "BREAK Y DINÁMICA",
+      "speaker_desc": "",
+      "track": "free-time"
+    },
+    {
+      "session_id": "13",
+      "session_start_time": "3:50 PM",
+      "session_total_time": "30 Mins",
+      "session_title": "BUENAS Y MALAS PRÁCTICAS EN EL DESARROLLO DE SOFTWARE",
+      "session_desc": "",
+      "speaker_image": "./speakers/fahed_hermoza.png",
+      "speaker_name": "Fahed Hermoza",
+      "speaker_desc": "Senior Android Engineer at NTT Data - Perú",
+      "track": "web"
+    },
+    {
+      "session_id": "14",
+      "session_start_time": "4:20 PM",
+      "session_total_time": "30 Mins",
+      "session_title": "AMPLIANDO EL ÉXITO: LECCIONES APRENDIDAS AL SER PARTE DEL PROGRAMA GOOGLE FOR STARTUPS",
+      "session_desc": "",
+      "speaker_image": "./speakers/joel.jpg",
+      "speaker_name": "Joel Ibaceta",
+      "speaker_desc": "CTO at Kwema Inc. - Perú",
+      "track": "web"
+    },
+    {
+      "session_id": "15",
+      "session_start_time": "4:50 PM",
+      "session_total_time": "30 Mins",
+      "session_title": "MI CAMINO A GOOGLE",
+      "session_desc": "",
+      "speaker_image": "./speakers/jesus.jpg",
+      "speaker_name": "Jesús Peña Mesías",
+      "speaker_desc": "Senior Software Engineer at Google - Reino Unido",
+      "track": "web"
+    },
+    {
+      "session_id": "16",
+      "session_start_time": "5:20 PM",
+      "session_total_time": "5:50PM",
+      "session_title": "",
+      "session_desc": "",
+      "speaker_image": "./calendar/amigo.png",
+      "speaker_name": "CLAUSURA",
+      "speaker_desc": "",
+      "track": "free-time"
+    }
+  ]
+}

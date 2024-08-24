@@ -1,0 +1,32 @@
+.redes {
+  width: 100%;
+}
+.redes__titulo {
+  font-size: 1.9rem;
+}
+.redes__container {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.redes__container__item {
+  background-color: #0c408f5b;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scale: 1.5;
+}
+@media screen and (max-width: 768px) {
+  .redes__titulo {
+    font-size: 1.5rem;
+  }
+  .redes__container {
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+}

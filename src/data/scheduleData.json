@@ -1,0 +1,33 @@
+[
+    {
+      "time": "09:00 - 10:00",
+      "salons": [
+        { "name": "Salón 1", "speaker": "speaker1", "image": "https://cache.sessionize.com/image/f255-400o400o2-EHuxpTeYPxcChbJtGkUbqM.jpg", "topic": "AI and ML", "environment": "Principal" },
+        { "name": "Salón 2", "speaker": "speaker2", "image": "https://cache.sessionize.com/image/f255-400o400o2-EHuxpTeYPxcChbJtGkUbqM.jpg", "topic": "Cloud Computing", "environment": "Principal" },
+        { "name": "Salón 3", "speaker": "speaker3", "image": "https://cache.sessionize.com/image/f255-400o400o2-EHuxpTeYPxcChbJtGkUbqM.jpg", "topic": "Data Science", "environment": "Principal" },
+        { "name": "Salón 4", "speaker": "speaker4", "image": "https://cache.sessionize.com/image/f255-400o400o2-EHuxpTeYPxcChbJtGkUbqM.jpg", "topic": "Blockchain", "environment": "Secundario" },
+        { "name": "Salón 5", "speaker": "speaker5", "image": "https://cache.sessionize.com/image/f255-400o400o2-EHuxpTeYPxcChbJtGkUbqM.jpg", "topic": "Cybersecurity", "environment": "Secundario" }
+      ]
+    },
+    {
+      "time": "10:00 - 10:30",
+      "salons": [
+        { "name": "Descanso", "speaker": "", "image": "", "topic": "", "environment": "" },
+        { "name": "Descanso", "speaker": "", "image": "", "topic": "", "environment": "" },
+        { "name": "Descanso", "speaker": "", "image": "", "topic": "", "environment": "" },
+        { "name": "Descanso", "speaker": "", "image": "", "topic": "", "environment": "" },
+        { "name": "Descanso", "speaker": "", "image": "", "topic": "", "environment": "" }
+      ]
+    },
+    {
+      "time": "10:30 - 11:30",
+      "salons": [
+        { "name": "Salón 1", "speaker": "speaker1", "image": "https://cache.sessionize.com/image/f255-400o400o2-EHuxpTeYPxcChbJtGkUbqM.jpg", "topic": "AI and ML", "environment": "Principal" },
+        { "name": "Salón 2", "speaker": "speaker2", "image": "https://cache.sessionize.com/image/f255-400o400o2-EHuxpTeYPxcChbJtGkUbqM.jpg", "topic": "Cloud Computing", "environment": "Principal" },
+        { "name": "Salón 3", "speaker": "speaker3", "image": "https://cache.sessionize.com/image/f255-400o400o2-EHuxpTeYPxcChbJtGkUbqM.jpg", "topic": "Data Science", "environment": "Principal" },
+        { "name": "Salón 4", "speaker": "speaker4", "image": "https://cache.sessionize.com/image/f255-400o400o2-EHuxpTeYPxcChbJtGkUbqM.jpg", "topic": "Blockchain", "environment": "Secundario" },
+        { "name": "Salón 5", "speaker": "speaker5", "image": "https://cache.sessionize.com/image/f255-400o400o2-EHuxpTeYPxcChbJtGkUbqM.jpg", "topic": "Cybersecurity", "environment": "Secundario" }
+      ]
+    }
+  ]
+  

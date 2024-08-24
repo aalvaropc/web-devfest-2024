@@ -1,0 +1,66 @@
+.cardsHorario {
+  background: #2b2c2f;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 1rem;
+  font-family: "Product Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
+  cursor: pointer;
+}
+
+.cardsHorariobreak {
+  background: #FDD46D;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 1rem;
+  font-family: "Product Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* gap: 1.5rem; */
+  cursor: pointer;
+  font:black;
+}
+
+
+.cardsHorario__titulo {
+  color: white;
+  font-size: 1.4rem;
+}
+.cardsHorario__tarjeta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.cardsHorario__tarjeta__imagen {
+  width: 2rem;
+  border-radius: 100%;
+}
+.cardsHorario__tarjeta__contenedor {
+  opacity: 0.6;
+  transition: 0.2s ease-in-out;
+  line-height: 1.3rem;
+}
+.cardsHorario__tarjeta__contenedor:hover {
+  opacity: 1;
+}
+.cardsHorario__tarjeta__contenedor__speaker {
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 0.4rem;
+}
+
+.cardsHorario__tarjeta__contenedor__speaker__free {
+  font-size: 1.2rem;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 0rem;
+}
+
+
+.cardsHorario__tarjeta__contenedor__oficio {
+  color: white;
+}

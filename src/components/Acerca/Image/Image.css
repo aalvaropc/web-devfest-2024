@@ -1,0 +1,17 @@
+.width__imgg {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .md__imgg {
+    width: 200px;
+    margin: auto;
+    display: block;
+    height: 190px;
+  }
+
+}

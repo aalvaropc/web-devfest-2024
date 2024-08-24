@@ -1,0 +1,24 @@
+.resumen {
+  width: 100%;
+}
+.resumen__titulo {
+  font-size: 1.9rem;
+}
+.resumen__lista {
+  margin-top: 2rem;
+  opacity: 0.6;
+  line-height: 2rem;
+
+}
+@media screen and (max-width: 768px) {
+  .resumen__titulo {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .resumen__lista {
+    margin-top: 2rem;
+    line-height: 1.5rem;
+    font-size: 1.0rem;
+
+  }
+}

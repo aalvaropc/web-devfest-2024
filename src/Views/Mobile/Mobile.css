@@ -1,0 +1,48 @@
+.py-12 {
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.acerca__titulo {
+  font-size: 5rem;
+  font-family: "Product Sans", sans-serif;
+  color: white;
+  margin-bottom: 6rem;
+}
+
+.page-container {
+  width: 100%;
+  max-width: 75rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
+
+.centered-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .page-container {
+    width: 90%;
+  }
+  .acerca__titulo{
+    margin-bottom: 2rem;
+  }
+  .centered-image{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

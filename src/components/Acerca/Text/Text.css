@@ -1,0 +1,28 @@
+.custom__textt {
+  font-size: 1.5rem;
+  line-height: 1em;
+  color: white;
+  font-family: "Product Sans", sans-serif;
+}
+
+.custom__text__opacityy {
+  margin-top: 1rem;
+  opacity: 0.7;
+  line-height: 1.3em;
+  color: white;
+  font-family: "Product Sans", sans-serif;
+  text-align: justify;
+}
+
+.mt__8 {
+  margin-top: 2rem;
+}
+@media screen and (max-width: 768px) {
+  .textoss{
+    text-align: center;
+    width: 100%;
+  }
+  .custom__textt{
+    width: 100%;
+  }
+}

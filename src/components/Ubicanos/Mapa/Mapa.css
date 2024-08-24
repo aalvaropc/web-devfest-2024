@@ -1,0 +1,29 @@
+iframe {
+  border-radius: 25px;
+}
+
+.mapa__component {
+  position: relative;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  height: 240px;
+  background-size: cover;
+  background-position: center;
+}
+
+.md\:mt-12 {
+  margin-top: 3rem;
+}
+
+.lg\:w-10\/12 {
+  width: 83.33%;
+}
+
+.md\:h-320 {
+  height: 320px;
+}
+
+.lg\:h-400 {
+  height: 400px;
+}

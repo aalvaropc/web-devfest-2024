@@ -1,0 +1,78 @@
+.containerr {
+ animation: reveal 1s ease-in-out forwards, fade-bottom 1s ease-in-out forwards;
+}
+
+@keyframes reveal {
+ from {
+    opacity: 0;
+ }
+ to {
+    opacity: 1;
+ }
+}
+
+@keyframes fade-bottom {
+ from {
+    transform: translateY(100%);
+ }
+ to {
+    transform: translateY(0);
+ }
+}
+
+.active {
+ animation-play-state: running;
+}
+
+.containerr {
+  width: 91%;
+}
+@media (min-width: 640px) {
+  .containerr {
+    max-width: 640px;
+  }
+}
+@media (min-width: 768px) {
+  .containerr {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+  .containerr {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+  .containerr {
+    max-width: 1280px;
+  }
+}
+@media (min-width: 1536px) {
+  .containerr {
+    max-width: 1536px;
+  }
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.py-12 {
+  padding-top: 3rem
+  padding-bottom: 3rem
+}
+@media (min-width: 768px) {
+  .md\:py-24 {
+    padding-top: 6rem
+    padding-bottom: 6rem
+  }
+}
+.px-4 {
+  padding-left: 1rem
+  padding-right: 1rem
+}
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}

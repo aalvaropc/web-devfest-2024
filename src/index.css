@@ -1,0 +1,24 @@
+body {
+  background-color: #1e1d1d;
+}
+
+::-webkit-scrollbar {
+  background-color: #1e1d1d;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fdd46dbd;
+  border-radius: 2rem;
+}
+
+.contenedor__efecto {
+  padding-top: 6rem;
+  margin-top: 6rem;
+}
+
+@media screen and (max-width: 768px) {
+  .contenedor__efecto {
+    width: 100%;
+    margin: auto;
+  }
+}

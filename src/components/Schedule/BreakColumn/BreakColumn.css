@@ -1,0 +1,18 @@
+.break-column {
+  flex: 1;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D8B157;
+  color: #343a40;
+  font-weight: bold;
+  font-size: 18px;
+  {{/* border-radius: 5px; */}}
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.break-text {
+  font-size: 25px;
+  margin: 0;
+}

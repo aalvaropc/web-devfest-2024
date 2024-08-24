@@ -1,0 +1,21 @@
+.font__container {
+  font-family: '"Product Sans"', sans-serif;
+
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .md\:texto__md {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:texto__lg {
+    font-size: 4rem;
+  }
+}
+
+.md\:text__center {
+  text-align: center;
+}

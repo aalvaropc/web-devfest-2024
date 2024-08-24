@@ -1,0 +1,150 @@
+.banner {
+  width: 100%;
+  max-width: 75rem;
+  position: relative;
+  margin: auto;
+  margin-top: 13rem;
+}
+.banner__title {
+  font-size: 10rem;
+  text-wrap: wrap;
+  width: 40rem;
+  font-family: "Product Sans", sans-serif;
+  color: #e8ebed;
+}
+.banner__text {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #e8ebed;
+  width: 40rem;
+  font-family: "Product Sans", sans-serif;
+}
+
+.banner__buttons__item--first {
+  position: absolute;
+  top: 2.5rem;
+  left: 8.2rem;
+  font-size: 1.4rem;
+  background-color: #fdd46d;
+  padding: 0.2rem 1.5rem;
+  border-radius: 5rem;
+  font-family: "Product Sans", sans-serif;
+  transition: transform 0.2s ease;
+}
+.banner__buttons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  
+}
+.banner__buttons__item--second {
+  position: absolute;
+  top: 12rem;
+  left: 17.7rem;
+  font-size: 1.4rem;
+  background-color: #88b4f7;
+  padding: 0.2rem 1.5rem;
+  border-radius: 5rem;
+  font-family: "Product Sans", sans-serif;
+  transition: transform 0.2s ease;
+}
+.banner__buttons__item__efect {
+  position: absolute;
+  top: 15.2rem;
+  left: 30rem;
+  width: auto;
+  box-sizing: content-box;
+  height: fit-content;
+  padding: 1.5rem 0.5rem;
+  border-radius: 2rem;
+  border: 1px solid white;
+  color: #e8ebed;
+
+  animation: pulseBorder 2010ms infinite;
+}
+.banner__buttons__item__efect--third {
+  border: 1px solid transparent;
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  border: 1px solid white;
+  border-radius: 2rem;
+  color: #e8ebed;
+  font-family: "Product Sans", sans-serif;
+  font-weight: 900;
+}
+
+@keyframes pulseBorder {
+  0% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #e8ebed;
+  }
+  100% {
+    border-color: transparent;
+  }
+}
+
+.banner__buttons__item__efect--third:hover {
+  background-color: #e8ebed;
+  color: black;
+  transition: 0.2s ease-in-out;
+  animation: none;
+}
+
+.banner__buttons__item--third:hover {
+  background-color: #e8ebed;
+  color: black;
+  transition: 0.2s ease-in-out;
+}
+.banner__buttons:hover .banner__buttons__item--first {
+  transform: translateX(20px);
+}
+
+.banner__buttons:hover .banner__buttons__item--second {
+  transform: translateX(-20px);
+}
+
+@media screen and (max-width: 768px) {
+  .banner__title {
+    font-size: 5.5rem;
+    text-wrap: wrap;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 5rem;
+  }
+  .banner__text {
+    text-wrap: wrap;
+    width: 85%;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.5rem;
+  }
+  .banner {
+    scale: 1;
+  }
+  .banner__buttons__item--first {
+    top: 0;
+    left:15rem;
+  }
+  .banner__buttons__item--second {
+    top: 10rem;
+    left: 5rem;
+  }
+  .banner__buttons__item__efect {
+    scale: 1;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 28rem;
+
+  }
+
+  .banner__buttons__item__efect--third {
+    width: 100%;
+    font-size: 1rem;
+  }
+}

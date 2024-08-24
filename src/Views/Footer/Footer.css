@@ -1,0 +1,40 @@
+.footer {
+  color: white;
+  font-family: "Product Sans", sans-serif;
+  width: 80%;
+  max-width: 70rem;
+  margin: auto;
+  padding-top: 0rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-around;
+  padding-bottom: 4rem;
+  gap: 2.5rem;
+}
+
+.mensajeprefooter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12rem 0rem;
+}
+
+.mensajeprefooter__titulo {
+  color: white;
+  font-size: 7rem;
+  font-family: "Product Sans", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    grid-template-columns: 1fr;
+  }
+  .mensajeprefooter__titulo {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 80%;
+  }
+}
