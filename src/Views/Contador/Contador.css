@@ -1,25 +1,11 @@
-.footer {
-  color: white;
-  font-family: "Product Sans", sans-serif;
-  width: 80%;
-  max-width: 70rem;
-  margin: auto;
-  padding-top: 0rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content: space-around;
-  padding-bottom: 4rem;
-  gap: 2.5rem;
-}
 
 .mensajeprefooter {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 12rem 0rem;
-  margin-top: 12rem;
-  margin-bottom: 10rem;
+  padding: 2rem 0rem;
+  margin-bottom: 50px;
 }
 
 .mensajeprefooter__titulo {
@@ -27,6 +13,33 @@
   font-size: 7rem;
   font-family: "Product Sans", sans-serif;
 }
+
+.contador {
+  color: white;
+  font-family: "Product Sans", sans-serif;
+  width: 80%;
+  max-width: 120rem;
+  font-size: 50px;
+  margin: auto;
+  padding-top: 0rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-around;
+  padding-bottom: 0rem;
+  gap: 2.5rem;
+    justify-content: center;
+  align-items: center;
+}
+
+.contador {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0rem;
+}
+
+
 
 @media screen and (max-width: 768px) {
   .footer {

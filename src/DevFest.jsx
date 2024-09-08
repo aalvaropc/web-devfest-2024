@@ -7,6 +7,7 @@ import Ubicanos from "./Views/Ubicanos";
 import Calendario from "./Views/Calendario";
 import Schedule from "./Views/Schedule";
 import Mobile from "./Views/Mobile";
+import Contador from "./Views/Contador"
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -27,6 +28,7 @@ function App() {
     { id: "schedule", componente: <Schedule /> },
     { id: "sponsors", componente: <Sponsors /> },
     { id: "mobile", componente: <Mobile /> },
+    { id: "contador", componente: <Contador /> },
     { id: "lugar", componente: <Ubicanos /> },
   ];
 

@@ -8,20 +8,20 @@ const ModalForm = ({ showModal, setShowModal }) => {
   const handleClose = () => {
     setShowModal(false);
   };
-
   const handleSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
     const data = Object.fromEntries(formData.entries());
+  
     const requestBody = {
       name: `${data.nombres} ${data.primerApellido} ${data.segundoApellido}`,
       email: data.correo,
       telefono: data.telefono,
       dni: data.dni,
     };
-
+  
     try {
-      const response = await fetch("http://localhost:8000/v1/registration/register", {
+      const response = await fetch("url", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -29,20 +29,22 @@ const ModalForm = ({ showModal, setShowModal }) => {
         },
         body: JSON.stringify(requestBody),
       });
-
+  
       if (response.ok) {
         setConfirmationMessage("Registro exitoso. ¡Gracias por registrarte!");
         setTimeout(() => {
           setConfirmationMessage("");
           setShowModal(false);
-        }, 3000); // Mensaje visible por 3 segundos
+        }, 3000);
       } else {
-        setConfirmationMessage("Error al registrar. Inténtalo de nuevo.");
+        const errorData = await response.json();
+        setConfirmationMessage(`Error al registrar: ${errorData.message || "Inténtalo de nuevo."}`);
       }
     } catch (error) {
       setConfirmationMessage("Error al registrar. Inténtalo de nuevo.");
     }
   };
+  
 
   return (
     showModal && (

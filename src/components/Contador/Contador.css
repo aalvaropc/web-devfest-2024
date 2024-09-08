@@ -1,0 +1,33 @@
+.countdown-timer {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-square {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 180px;
+  background-color: #gris;
+  border: 2px solid #333;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(200, 200, 200, 0.5);
+  text-align: center;
+}
+
+.time-number {
+  font-size: 48px;
+  font-weight: bold;
+  color: #FDD46D;
+}
+
+.time-label {
+  font-size: 22px;
+  text-transform: capitalize;
+  color: #white;
+  margin-top: 8px;
+}
