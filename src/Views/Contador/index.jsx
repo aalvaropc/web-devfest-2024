@@ -7,7 +7,7 @@ const Contador = () => {
         <h1 className="mensajeprefooter__titulo">Estaremos de regreso en ...</h1>
       </div>
         <h1 className="contador"> 
-            <CountdownTimer targetDate="2024-12-31T23:59:59" />
+            <CountdownTimer targetDate="2024-11-23T23:59:59" />
         </h1>
     </>
   );
