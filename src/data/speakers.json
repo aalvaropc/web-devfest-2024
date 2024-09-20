@@ -1,25 +1,14 @@
 {
   "speakers": [
     {
-      "speaker_image": "./speakers/joel.jpg",
-      "speaker_name": "Joel Ibaceta",
-      "speaker_desc": "CTO at Kwema Inc.",
+      "speaker_image": "./speakers/antuanet.jfif",
+      "speaker_name": "Antuanet Elias",
+      "speaker_desc": "It Recruiter en Intercorp",
       "speaker_session": "",
       "fb_url": "None",
-      "github_url": "https://github.com/joelibaceta",
+      "github_url": "",
       "linkedin_url": "https://www.linkedin.com/in/joelibaceta/?originalSubdomain=pe",
       "twitter_url": "https://twitter.com/joelibaceta",
-      "modality": "in person"
-    },
-    {
-      "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/damian.jpg",
-      "speaker_name": "Damián Siré",
-      "speaker_desc": "Senior Developer",
-      "speaker_session": "",
-      "fb_url": "None",
-      "github_url": "https://github.com/damiansire",
-      "linkedin_url": "https://www.linkedin.com/in/damiansire/?originalSubdomain=uy",
-      "twitter_url": "https://twitter.com/damiansire",
       "modality": "in person"
     },
     {
@@ -31,17 +20,6 @@
       "github_url": "https://github.com/Bruno125",
       "linkedin_url": "https://www.linkedin.com/in/bruno-aybar/",
       "twitter_url": "https://twitter.com/brunoaybarg",
-      "modality": "in person"
-    },
-    {
-      "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/IMG_02%20-%20Gustavo%20Liz%C3%A1rraga.JPG",
-      "speaker_name": "Gustavo Lizárraga",
-      "speaker_desc": "Github Campus Expert",
-      "speaker_session": "",
-      "fb_url": "none",
-      "github_url": "https://github.com/lizarragadev",
-      "linkedin_url": "https://www.linkedin.com/in/lizarragadev/?locale=es_ES",
-      "twitter_url": "https://twitter.com/lizarragadev",
       "modality": "in person"
     },
     {
@@ -67,25 +45,25 @@
       "modality": "in person"
     },
     {
-      "speaker_image": "https://cache.sessionize.com/image/f255-400o400o2-EHuxpTeYPxcChbJtGkUbqM.jpg",
-      "speaker_name": "Vanessa Aristizábal",
-      "speaker_desc": "Google Developer Expert",
+      "speaker_image": "./speakers/joel.jpg",
+      "speaker_name": "Joel Ibaceta",
+      "speaker_desc": "CTO at Kwema Inc.",
+      "speaker_session": "",
+      "fb_url": "None",
+      "github_url": "https://github.com/joelibaceta",
+      "linkedin_url": "https://www.linkedin.com/in/joelibaceta/?originalSubdomain=pe",
+      "twitter_url": "https://twitter.com/joelibaceta",
+      "modality": "in person"
+    },
+    {
+      "speaker_image": "./speakers/martin.jfif",
+      "speaker_name": "Martin Manriquez",
+      "speaker_desc": "Founding Team & Software Engineer",
       "speaker_session": "",
       "fb_url": "None",
       "github_url": "https://github.com/vanessamarely",
       "linkedin_url": "https://www.linkedin.com/in/vanessa-marely-aristizabal-angel/",
       "twitter_url": "https://twitter.com/vanessamarely",
-      "modality": "in person"
-    },
-    {
-      "speaker_image": "https://img-b.udemycdn.com/user/200_H/26947678_bdf7_3.jpg",
-      "speaker_name": "Bezael Pérez",
-      "speaker_desc": "Google Developer Expert",
-      "speaker_session": "",
-      "fb_url": "https://www.facebook.com/dominicodee/",
-      "github_url": "https://github.com/bezael",
-      "linkedin_url": "https://www.linkedin.com/in/bezael/",
-      "twitter_url": "https://twitter.com/domini_code",
       "modality": "in person"
     },
     {
@@ -100,20 +78,9 @@
       "modality": "in person"
     },
     {
-      "speaker_image": "./speakers/fahed_hermoza.png",
-      "speaker_name": "Fahed Hermoza",
-      "speaker_desc": "Senior Android Engineer at NTT Data",
-      "speaker_session": "",
-      "fb_url": "",
-      "github_url": "",
-      "linkedin_url": "https://www.linkedin.com/in/fahedhermoza/",
-      "twitter_url": "",
-      "modality": "in person"
-    },
-    {
-      "speaker_image": "./speakers/mayra.jpg",
-      "speaker_name": "Mayra Rodriguez",
-      "speaker_desc": "Google Developer Expert",
+      "speaker_image": "./speakers/jimmy.jfif",
+      "speaker_name": "Jimmy Dolores",
+      "speaker_desc": "FrontEnd Architect - Organizer Angular Perú",
       "speaker_session": "",
       "fb_url": "",
       "github_url": "",
@@ -122,9 +89,42 @@
       "modality": "in person"
     },
     {
-      "speaker_image": "./speakers/jesus.jpg",
-      "speaker_name": "Jesús Peña Mesías",
+      "speaker_image": "./speakers/hansy2.png",
+      "speaker_name": "Hansy Schmitt",
+      "speaker_desc": "Fullstack and Mobile Engineer - Organizer GDG Cloud Lima",
+      "speaker_session": "",
+      "fb_url": "",
+      "github_url": "",
+      "linkedin_url": "https://www.linkedin.com/in/mayrascript/",
+      "twitter_url": "",
+      "modality": "in person"
+    },
+    {
+      "speaker_image": "./speakers/nicolas.jfif",
+      "speaker_name": "Nicolas Molina",
       "speaker_desc": "Senior Software Engineer at Google",
+      "speaker_session": "",
+      "fb_url": "",
+      "github_url": "",
+      "linkedin_url": "",
+      "twitter_url": "",
+      "modality": "in person"
+    },
+    {
+      "speaker_image": "./speakers/rafael.jfif",
+      "speaker_name": "Rafael Gonzales",
+      "speaker_desc": "CEO / Director Tecnológico en Netdreams",
+      "speaker_session": "",
+      "fb_url": "",
+      "github_url": "",
+      "linkedin_url": "",
+      "twitter_url": "",
+      "modality": "in person"
+    },
+    {
+      "speaker_image": "./speakers/yancel.jfif",
+      "speaker_name": "Yancel Salinas",
+      "speaker_desc": "Production Engineer at Zebrands, Organizer GDG Open Lima",
       "speaker_session": "",
       "fb_url": "",
       "github_url": "",
