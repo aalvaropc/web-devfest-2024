@@ -12,7 +12,7 @@ const Mapa = () => {
           scrolling="no"
           marginHeight="0"
           marginWidth="0"
-          src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=MOVISTAR%20CAC%20ICA+(Mi%20nombre%20de%20egocios)&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15481.834389268504!2d-75.7504131!3d-14.0500755!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110e2d222156cc9%3A0x4cba745cedd6457f!2sUniversidad%20Continental%2C%20campus%20Ica!5e0!3m2!1sen!2spe!4v1726858305390!5m2!1sen!2spe"
         >
           <a href="https://www.gps.ie/car-satnav-gps/">Devfest</a>
         </iframe>
