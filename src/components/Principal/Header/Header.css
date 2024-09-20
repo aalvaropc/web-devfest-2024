@@ -89,7 +89,7 @@
 .navegador__lista {
   padding: 1rem;
   width: 50%;
-  gap: 0.5rem;
+  gap: 1.5rem;
   display: flex;
   justify-content: space-between;
   color: white;

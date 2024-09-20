@@ -1,8 +1,10 @@
 .countdown-timer {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+  gap: 16px;
   justify-content: center;
   align-items: center;
+  padding: 1rem;
 }
 
 .time-square {
@@ -10,9 +12,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 180px;
-  height: 180px;
-  background-color: #gris;
+  width: 10rem; /* Unidades relativas */
+  height: 10rem; /* Unidades relativas */
+  background-color: #f0f0f0;
   border: 2px solid #333;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(200, 200, 200, 0.5);
@@ -20,14 +22,30 @@
 }
 
 .time-number {
-  font-size: 48px;
+  font-size: 3rem; /* Ajusta el tamaño del número */
   font-weight: bold;
   color: #FDD46D;
 }
 
 .time-label {
-  font-size: 22px;
+  font-size: 1.5rem; /* Ajusta el tamaño de la etiqueta */
   text-transform: capitalize;
-  color: #white;
+  color: #777;
   margin-top: 8px;
+}
+
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  .time-square {
+    width: 8rem; /* Tamaño más pequeño en pantallas pequeñas */
+    height: 8rem;
+  }
+
+  .time-number {
+    font-size: 2.5rem;
+  }
+
+  .time-label {
+    font-size: 1rem;
+  }
 }

@@ -6,7 +6,11 @@ const Schedule = () => {
   return (
     <div className="schedule-view">
       {/* <h1>Calendario de Eventos</h1> */}
-      <ScheduleTable />
+
+      <h1 className="calendario__titulo">Agenda</h1>
+      <div className="calendario__container">
+          <ScheduleTable />
+      </div>
     </div>
   );
 };

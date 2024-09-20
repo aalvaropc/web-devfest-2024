@@ -24,8 +24,8 @@ function App() {
   const componentes = [
     { id: "acerca", componente: <Acerca /> },
     { id: "speakers", componente: <Speakers /> },
-    { id: "calendario", componente: <Calendario /> },
-    { id: "schedule", componente: <Schedule /> },
+    // { id: "calendario", componente: <Calendario /> },
+    { id: "calendario", componente: <Schedule /> },
     { id: "sponsors", componente: <Sponsors /> },
     { id: "mobile", componente: <Mobile /> },
     { id: "contador", componente: <Contador /> },

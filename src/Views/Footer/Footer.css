@@ -4,22 +4,22 @@
   width: 80%;
   max-width: 70rem;
   margin: auto;
-  padding-top: 0rem;
+  padding-bottom: 5rem;
+  
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-around;
-  padding-bottom: 4rem;
+
   gap: 2.5rem;
 }
 
 .mensajeprefooter {
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 12rem 0rem;
   margin-top: 12rem;
-  margin-bottom: 10rem;
+
 }
 
 .mensajeprefooter__titulo {

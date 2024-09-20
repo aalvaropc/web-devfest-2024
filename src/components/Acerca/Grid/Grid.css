@@ -1,6 +1,6 @@
 .grid__containerr {
-  width: 90%;
-  max-width: 90%;
+  width: 100%;
+  max-width: 100%;
   display: grid;
   gap: 2rem;
 }
@@ -27,7 +27,7 @@
   display: grid;
 }
 .gap__8 {
-  gap: 2rem;
+  gap: 6rem;
 }
 @media (min-width: 768px) {
   .gap__md {

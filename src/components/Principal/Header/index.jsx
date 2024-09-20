@@ -7,8 +7,9 @@ const Header = () => {
   const lista = [
     { nombre: "Acerca", direccion: "#acerca" },
     { nombre: "Speakers", direccion: "#speakers" },
-    // { nombre: "Calendario", direccion: "#calendario" },
+    { nombre: "Agenda", direccion: "#calendario" },
     { nombre: "Sponsors", direccion: "#sponsors" },
+    { nombre: "Contador", direccion: "#contador" },
     { nombre: "App", direccion: "#mobile" },
     { nombre: "Lugar", direccion: "#lugar" },
   ];

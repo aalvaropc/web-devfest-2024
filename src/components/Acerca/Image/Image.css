@@ -1,5 +1,5 @@
 .width__imgg {
-  width: 85%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,10 +8,10 @@
 
 @media (max-width: 768px) {
   .md__imgg {
-    width: 200px;
+    width: 250px;
     margin: auto;
     display: block;
-    height: 190px;
+    height: 200px;
   }
 
 }

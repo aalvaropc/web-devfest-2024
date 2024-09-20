@@ -3,7 +3,7 @@ import "./Contador.css";
 const Contador = () => {
   return (
     <>
-              <div className="mensajeprefooter">
+      <div className="mensajeprefooter">
         <h1 className="mensajeprefooter__titulo">Estaremos de regreso en ...</h1>
       </div>
         <h1 className="contador"> 
