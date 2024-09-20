@@ -5,10 +5,10 @@ const Text = () => {
     <div>
       <div className="textoss">
         <h3 className="custom__textt">
-          DevFest Ica - Uniendo a los Entusiastas de la Tecnología
+          DevFest Ica  - Uniendo a los Entusiastas de la Tecnología
         </h3>
         <p className="custom__text__opacityy">
-          Únete a nosotros el 2 de diciembre para un día de inspiración,
+          Únete a nosotros el sábado 31 de noviembre para un día de inspiración,
           innovación y colaboración. DevFest Ica reúne a entusiastas de la
           tecnología de todo el mundo para celebrar la tecnología y compartir
           conocimientos.
