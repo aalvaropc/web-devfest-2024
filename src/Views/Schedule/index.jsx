@@ -9,7 +9,8 @@ const Schedule = () => {
 
       <h1 className="calendario__titulo">Agenda</h1>
       <div className="calendario__container">
-          <ScheduleTable />
+          {/* <ScheduleTable />*/}
+          <p className='calendario__proximanente'>Próximanente</p>
       </div>
     </div>
   );
