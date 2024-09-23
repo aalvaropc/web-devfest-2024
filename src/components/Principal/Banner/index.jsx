@@ -15,7 +15,7 @@ const Banner = () => {
         <div className="banner__buttons__item__efect">
           <span className="banner__buttons__item__efect--third">
             <a
-              href="https://www.eventbrite.com/e/entradas-devfest-ica-718100236137"
+              href="https://bit.ly/devfestica24"
               target="_blank"
               rel="noreferrer"
             >
