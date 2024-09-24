@@ -71,9 +71,17 @@ const Header = () => {
             );
           })}
 
-          <li className="navegador__lista__item--active">
-            <a onClick={() => setShowModal(true)} className="navegador__lista__item--active__a">Registrate</a>
-          </li>
+        <li className="navegador__lista__item--active">
+          <a
+              href="https://bit.ly/devfestica24"
+              target="_blank"
+              rel="noreferrer"
+
+              className="navegador__lista__item--active__a"
+            >
+              Regístrate
+            </a>
+        </li>
         </ul>
         {window.innerWidth < 768 && (
           <span
