@@ -2,13 +2,7 @@
   width: 100%;
 }
 
-.logo__texto {
-  margin-top: 2rem;
-  line-height: 1.5rem;
-  font-size: 0.8rem;
-  opacity: 0.6;
-  text-align: left;
-}
+
 @media screen and (max-width: 768px) {
   .logo__imagen{
     width: 40%;
@@ -17,4 +11,18 @@
     line-height: 1rem;
     font-size: 1.0rem;
   }
+  
+  .resumen__lista {
+    margin-top: 2rem;
+    line-height: 1.5rem;
+    font-size: 1.0rem;
+
+  }
+}
+
+.logo__texto {
+  margin-top: 2rem;
+  opacity: 0.6;
+  line-height: 2rem;
+  text-align: justify;
 }

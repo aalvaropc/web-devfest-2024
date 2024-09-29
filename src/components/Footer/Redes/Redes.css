@@ -1,5 +1,5 @@
 .redes {
-  width: 100%;
+  width: 90%;
 }
 .redes__titulo {
   font-size: 1.9rem;
@@ -10,6 +10,8 @@
   display: flex;
   justify-content: space-between;
 }
+
+
 .redes__container__item {
   background-color: #0c408f5b;
   width: 2rem;
