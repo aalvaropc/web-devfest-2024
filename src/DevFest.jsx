@@ -11,6 +11,7 @@ import Contador from "./Views/Contador"
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Collage from "./Views/Collage";
 function App() {
 
   useEffect(() => {
@@ -24,12 +25,13 @@ function App() {
   const componentes = [
     { id: "acerca", componente: <Acerca /> },
     { id: "speakers", componente: <Speakers /> },
-    // { id: "calendario", componente: <Calendario /> },
+   { id: "calendario", componente: <Calendario /> },
     { id: "calendario", componente: <Schedule /> },
     { id: "sponsors", componente: <Sponsors /> },
     { id: "mobile", componente: <Mobile /> },
     { id: "contador", componente: <Contador /> },
     { id: "lugar", componente: <Ubicanos /> },
+    { id: "collage", componente: <Collage /> },
   ];
 
   return (

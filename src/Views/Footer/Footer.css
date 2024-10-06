@@ -13,12 +13,21 @@
   gap: 2.5rem;
 }
 
+
+.calendario {
+  width: 100%;
+  max-width: 75rem;
+  margin: auto;
+}
+
+
 .mensajeprefooter {
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 12rem;
+  margin-bottom: 200px;
 
 }
 

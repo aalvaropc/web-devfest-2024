@@ -1,10 +1,10 @@
-.mensajeprefooter {
+.contadorprefooter {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 2rem 0rem;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .mensajeprefooter__titulo {

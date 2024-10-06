@@ -1,0 +1,134 @@
+.collage-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+  background-color: #1E1D1D;
+  border-radius: 15px;
+  {{/* width: 95%; */}}
+  margin: 20px auto;
+  position: relative;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+}
+
+.photo-wrapper {
+  position: relative;
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+  z-index: 1;
+  overflow: hidden;
+  perspective: 1000px;
+  border-radius: 15px;
+  border: 2px solid #FDD46D; 
+  box-shadow: 0 4px 20px rgba(253, 212, 109, 0.3);
+}
+
+.photo-wrapper:hover {
+  transform: scale(1.05) rotateY(15deg); /* Inclinación hacia un lado */
+  z-index: 2;
+  box-shadow: 0 12px 24px rgba(253, 212, 109, 0.6), 0 0 15px rgba(253, 212, 109, 0.3);
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: filter 0.5s ease, transform 0.3s ease;
+}
+
+.photo-wrapper:hover .photo {
+  filter: brightness(1.2);
+  transform: rotateY(-10deg); 
+}
+
+/* Efecto de glitch */
+.photo-wrapper:hover .photo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  mix-blend-mode: overlay;
+  pointer-events: none;
+  animation: glitch 0.5s ease-in-out infinite;
+}
+
+@keyframes glitch {
+  0% {
+    transform: translate(0, 0);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(2px, -2px);
+  }
+  60% {
+    transform: translate(-2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+
+.photo-wrapper:nth-child(2n) {
+  width: 260px;
+  height: 320px;
+  transform: rotate(-3deg);
+}
+
+.photo-wrapper:nth-child(2n+1) {
+  width: 240px;
+  height: 270px;
+  transform: rotate(3deg);
+}
+
+.photo-wrapper:nth-child(3n) {
+  width: 300px;
+  height: 340px;
+  transform: rotate(-8deg);
+}
+
+.photo-wrapper:nth-child(4n) {
+  width: 210px;
+  height: 230px;
+  transform: rotate(8deg);
+}
+
+.photo-wrapper {
+  opacity: 0;
+  animation: fadeIn 0.8s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+
+.photo-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  border: 2px solid transparent;
+  box-shadow: 0 0 20px rgba(253, 212, 109, 0.5);
+  pointer-events: none;
+  transition: box-shadow 0.5s ease, transform 0.5s ease; 
+}
+
+.photo-wrapper:hover::after {
+  box-shadow: 0 0 30px rgba(253, 212, 109, 1), 0 0 60px rgba(253, 212, 109, 0.5);
+  transform: rotateY(15deg); 
+}
