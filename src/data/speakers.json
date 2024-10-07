@@ -1,17 +1,6 @@
 {
   "speakers": [
     {
-      "speaker_image": "./speakers/antuanet.jfif",
-      "speaker_name": "Antuanet Elias",
-      "speaker_desc": "It Recruiter en Intercorp",
-      "speaker_session": "",
-      "fb_url": "None",
-      "github_url": "",
-      "linkedin_url": "https://www.linkedin.com/in/joelibaceta/?originalSubdomain=pe",
-      "twitter_url": "https://twitter.com/joelibaceta",
-      "modality": "in person"
-    },
-    {
       "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/bruno%20aybar.jpg",
       "speaker_name": "Bruno Aybar Guerrero",
       "speaker_desc": "Senior Software Engineer at Shopify",
@@ -45,6 +34,59 @@
       "modality": "in person"
     },
     {
+      "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/jos%C3%A9_eduardo_orme%C3%B1o_meneses_zH4lD3V.jpg",
+      "speaker_name": "Eduardo Ormeño",
+      "speaker_desc": "GCE - GDG Organizer",
+      "speaker_session": "",
+      "fb_url": "None",
+      "github_url": "None",
+      "linkedin_url": "",
+      "twitter_url": "None",
+      "modality": "in person"
+    },
+    {
+      "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/damian.jpg",
+      "speaker_name": "Damián Siré",
+      "speaker_desc": "Senior Developer",
+      "speaker_session": "",
+      "fb_url": "None",
+      "github_url": "https://github.com/damiansire",
+      "linkedin_url": "https://www.linkedin.com/in/damiansire/?originalSubdomain=uy",
+      "twitter_url": "https://twitter.com/damiansire",
+      "modality": "in person"
+    },
+
+    
+    {
+      "speaker_image": "./speakers/isabel_cordova.jpg",
+      "speaker_name": "Isabel Cordova",
+      "speaker_desc": "Senior It Recluiter at Globant",
+      "speaker_session": "",
+      "fb_url": "None",
+      "github_url": "",
+      "linkedin_url": "",
+      "twitter_url": "",
+      "modality": "in person"
+    },
+
+    
+
+
+    {
+      "speaker_image": "./speakers/santiago_carrillo.jpg",
+      "speaker_name": "Santiago Carrillo",
+      "speaker_desc": "Google Developer Expert",
+      "speaker_session": "",
+      "fb_url": "None",
+      "github_url": "",
+      "linkedin_url": "",
+      "twitter_url": "",
+      "modality": "in person"
+    },
+
+
+
+    {
       "speaker_image": "./speakers/joel.jpg",
       "speaker_name": "Joel Ibaceta",
       "speaker_desc": "CTO at Kwema Inc.",
@@ -55,17 +97,35 @@
       "twitter_url": "https://twitter.com/joelibaceta",
       "modality": "in person"
     },
+
+
+
     {
-      "speaker_image": "./speakers/martin.jfif",
-      "speaker_name": "Martin Manriquez",
-      "speaker_desc": "Founding Team & Software Engineer",
+      "speaker_image": "./speakers/antuanet.jfif",
+      "speaker_name": "Antuanet Elias",
+      "speaker_desc": "It Recruiter en Intercorp",
       "speaker_session": "",
       "fb_url": "None",
-      "github_url": "https://github.com/vanessamarely",
-      "linkedin_url": "https://www.linkedin.com/in/vanessa-marely-aristizabal-angel/",
-      "twitter_url": "https://twitter.com/vanessamarely",
+      "github_url": "",
+      "linkedin_url": "https://www.linkedin.com/in/joelibaceta/?originalSubdomain=pe",
+      "twitter_url": "https://twitter.com/joelibaceta",
       "modality": "in person"
     },
+
+    {
+      "speaker_image": "./speakers/wilson_mendez.jpg",
+      "speaker_name": "Wilson Mendes",
+      "speaker_desc": "Google Developer Expert",
+      "speaker_session": "",
+      "fb_url": "None",
+      "github_url": "",
+      "linkedin_url": "https://www.linkedin.com/in/willmendesneto/",
+      "twitter_url": "",
+      "modality": "in person"
+    },
+
+
+    
     {
       "speaker_image": "./speakers/luis_landa.png",
       "speaker_name": "Luis Landa Girón",
@@ -96,17 +156,6 @@
       "fb_url": "",
       "github_url": "",
       "linkedin_url": "https://www.linkedin.com/in/mayrascript/",
-      "twitter_url": "",
-      "modality": "in person"
-    },
-    {
-      "speaker_image": "./speakers/nicolas.jfif",
-      "speaker_name": "Nicolas Lecaros",
-      "speaker_desc": "Principal Data Architect & GDG Organizer",
-      "speaker_session": "",
-      "fb_url": "",
-      "github_url": "",
-      "linkedin_url": "",
       "twitter_url": "",
       "modality": "in person"
     },
