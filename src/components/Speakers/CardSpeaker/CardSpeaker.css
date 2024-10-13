@@ -77,7 +77,8 @@
 
 @media screen and (max-width: 768px){
   .cardspeaker__container {
-   width: 100%;display: flex;
+   {{/* width: 100%; */}}
+   display: flex;
    align-items: center;
   }
   .cardspeaker{

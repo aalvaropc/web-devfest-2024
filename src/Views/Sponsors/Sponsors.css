@@ -19,6 +19,10 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  .sponsors__titulo{
+    font-size: 4rem;
+  }
   .sponsors__container{
     flex-direction: column;
     width: 100%;

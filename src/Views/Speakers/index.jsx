@@ -4,7 +4,6 @@ import "./Speakers.css";
 import speakersData from "../../data/speakers.json";
 
 const Speakers = () => {
-
   const speakersToDisplay = speakersData.speakers.filter((speaker) => {
     return true;
   });
@@ -20,7 +19,8 @@ const Speakers = () => {
             imagen={speaker.speaker_image}
             speaker_desc={speaker.speaker_desc}
             modality={speaker.modality}
-          ></CardSpeaker>
+            linkedin_url={speaker.linkedin_url}
+          />
         ))}
       </div>
     </div>

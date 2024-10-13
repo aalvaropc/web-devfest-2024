@@ -27,3 +27,15 @@
   text-align: center;
   padding-bottom: 3rem;
 }
+
+@media (max-width: 768px) {
+
+  .calendario__titulo{
+    font-size: 4rem;
+  }
+
+  .collage__titulo{
+    font-size: 4rem;
+  }
+
+}

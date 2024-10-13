@@ -1,9 +1,8 @@
 .custom__t {
-  font-size: 3rem;
-  line-height: 1em;
-  color: white;
+  font-size: 5rem;
   font-family: "Product Sans", sans-serif;
-  text-align: center;
+  color: white;
+  margin-bottom: 4rem;
 }
 
 .custom__text__opacity {
@@ -28,6 +27,6 @@
   .custom__t{
     width: 100%;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 4rem;
   }
 }

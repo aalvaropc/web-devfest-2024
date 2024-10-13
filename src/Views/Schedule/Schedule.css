@@ -32,6 +32,12 @@ h1 {
 
 
 @media (max-width: 768px) {
+
+  .calendario__titulo{
+    font-size: 4rem;
+  }
+
+  
   .header-row {
     display: none;
   }

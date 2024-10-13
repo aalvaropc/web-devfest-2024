@@ -9,7 +9,7 @@
 
 .mensajeprefooter__titulo {
   color: white;
-  font-size: 7rem;
+  font-size: 5rem;
   font-family: "Product Sans", sans-serif;
 }
 
@@ -45,7 +45,7 @@
     grid-template-columns: 1fr;
   }
   .mensajeprefooter__titulo {
-    font-size: 2.5rem;
+    font-size: 4rem;
     text-align: center;
     padding: 0;
     margin: 0;
