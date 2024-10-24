@@ -24,7 +24,7 @@
       "time": "11:15 - 11:40",
       "salons": [
         { "name": "Salón 1", "speaker": "Bruno Aybar", "image": "./speakers/brunoAybar.jpg", "topic": "Cómo iniciar en el desarrollo móvil en el 2024", "environment": "General" },
-        { "name": "Salón 2", "speaker": "Breack", "image": "img/icongdg.png", "topic": "", "environment": "General" }
+        { "name": "Salón 2", "speaker": "Break", "image": "img/icongdg.png", "topic": "", "environment": "General" }
       ]
     },
     {
@@ -108,7 +108,7 @@
       "time": "6:25 - 6:30",
       "salons": [
         { "name": "Salón 1", "speaker": "GDG Ica", "image": "img/icongdg.png", "topic": "Cierre / Clausura", "environment": "General" },
-        { "name": "Salón 2", "speaker": "GDG Ica", "image": "img/icongdg.png", "topic": "Cierre / Clausura", "environment": "General" }
+        { "name": "", "speaker": " ", "image": "", "topic": "", "environment": "General" }
       ]
     }
 ]
