@@ -28,26 +28,30 @@
   padding: 15px;
   background-color: #6c757d;
   color: white;
-  border-left: 1px solid #dee2e6;
+  border: 1px solid #dee2e6;
   font-size: 25px;
 }
 
 .schedule-row {
   display: flex;
   flex-wrap: wrap;
-  {{/* border: 2px solid #ddd; */}}
+
   font-weight: bold;
   text-align: center;
-    justify-content: center; /* Horizontal centering */
-  align-items: center; /* Vertical centering */
+
+
+  {{/* justify-content: center;
+  align-items: center; */}}
+
+
+
+  justify-content: space-between;
+  align-items: stretch;
+
+  
 }
 
-{{/* agregado */}}
 
-
-.schedule-row:nth-child(even) {
-  background-color: #D8B157;
-}
 
 
 
@@ -59,4 +63,16 @@
   color: white;
   {{/* background-color: #343a40; */}}
   color: white;
+  display: flex;
+ justify-content: center;
+  align-items: center; 
+}
+.empty-salon {
+  flex: 1;
+  padding: 15px;
+  background-color: #f8f9fa; /* Color de fondo claro para los salones vacíos */
+  border-left: 1px solid #dee2e6; /* Igual que los salones llenos */
+}
+.schedule-row.break-time {
+  background-color: #D8B157; /* Color solo para filas de descanso */
 }

@@ -1,0 +1,53 @@
+[
+  
+    {
+      "time": "10:00 - 10:10",
+      "salons": [
+        { "name": "Salón 3", "speaker": "GDG Ica", "image": "img/icongdg.png", "topic": "Introducción y Bienvenida al evento", "environment": "Talleres" },
+        { "name": "Salón 4", "speaker": "GDG Ica", "image": "img/icongdg.png", "topic": "Introducción y Bienvenida al evento", "environment": "Talleres" },
+        { "name": "Salón 5", "speaker": "GDG Ica", "image": "img/icongdg.png", "topic": "Introducción y Bienvenida al evento", "environment": "Talleres" }
+      ]
+    },
+    {
+      "time": "10:15 - 1:10",
+      "salons": [
+        
+        { "name": "Salón 3", "speaker": "Hansy Smitch", "image": "./speakers/hansy2.png", "topic": "Construyendo tu primera aplicación movil con android", "environment": "Talleres" },
+        { "name": "Salón 4", "speaker": "Jimmy Dolores", "image": "./speakers/jimmy.jfif", "topic": "Construyendo tu primera pagina web", "environment": "Talleres" },
+        { "name": "Salón 5", "speaker": "Yancel Salinas", "image": "./speakers/yancel.jfif", "topic": "Fundamentos de Python para ciencia de datos", "environment": "Talleres" }
+      
+      ]
+    },
+
+    {
+      "time": "1:15 - 3:00",
+      "salons": [
+        { "name": "Descanso", "speaker": "", "image": "", "topic": "", "environment": "" },
+        { "name": "Descanso", "speaker": "", "image": "", "topic": "", "environment": "" },
+        { "name": "Descanso", "speaker": "", "image": "", "topic": "", "environment": "" }
+      ]
+    },
+    {
+      "time": "3:00 - 5:25",
+      "salons": [
+
+        { "name": "Salón 3", "speaker": "Bruno Aybar/ Carlo Huamán", "image": "img/icongdg.png", "topic": "Construyendo tu primera aplicación movil con flutter", "environment": "Talleres" },
+        { "name": "Salón 4", "speaker": "Damián Siré", "image": "./speakers/damian.png", "topic": "Construyendo tu primera aplicación web moderna", "environment": "Talleres" },
+        { "name": "Salón 5", "speaker": "German Cayo", "image": "./speakers/german.jpg", "topic": "Fundamentos de Cloud Computing", "environment": "Talleres" }
+      
+      ]
+    },
+    
+    {
+      "time": "5:40 - 6:00",
+      "salons": [
+        { "name": "Salón 3", "speaker": "GDG Ica", "image": "img/icongdg.png", "topic": "Cierre / Clausura", "environment": "Talleres" },
+        { "name": "Salón 4", "speaker": "GDG Ica", "image": "img/icongdg.png", "topic": "Cierre / Clausura", "environment": "Talleres" },
+        { "name": "Salón 5", "speaker": "GDG Ica", "image": "img/icongdg.png", "topic": "Cierre / Clausura", "environment": "Talleres" }
+
+      ]
+    }
+
+
+  ]
+  

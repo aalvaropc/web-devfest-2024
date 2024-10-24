@@ -5,16 +5,16 @@ const FilterButtons = ({ filter, onFilterChange }) => {
   return (
     <div className="filter-buttons">
       <button 
-        className={`filter-button ${filter === 'Principal' ? 'active' : ''}`} 
-        onClick={() => onFilterChange('Principal')}
+        className={`filter-button ${filter === 'General' ? 'active' : ''}`} 
+        onClick={() => onFilterChange('General')}
       >
-        Principal
+        General
       </button>
       <button 
         className={`filter-button ${filter === 'Secundario' ? 'active' : ''}`} 
         onClick={() => onFilterChange('Secundario')}
       >
-        Secundario
+        Talleres
       </button>
     </div>
   );

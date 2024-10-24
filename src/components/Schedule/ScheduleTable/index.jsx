@@ -1,18 +1,23 @@
+import schedulePrincipal from '../../../data/schedulePrincipal.json';
+import scheduleSecundario from '../../../data/scheduleSecundario.json';
 import { useState, useEffect } from 'react';
 import FilterButtons from '../FilterButtons';
 import SalonColumn from '../SalonColumn';
 import BreakColumn from '../BreakColumn';
 import './ScheduleTable.css';
-import scheduleData from '../../../data/scheduleData.json';
+
 
 const ScheduleTable = () => {
-  const [filter, setFilter] = useState('Principal');
+  const [filter, setFilter] = useState('General');
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    // Load schedule data
-    setData(scheduleData);
-  }, []);
+    if (filter === 'General') {
+      setData(schedulePrincipal);
+    } else {
+      setData(scheduleSecundario);
+    }
+  }, [filter]);
 
   const handleFilterChange = (newFilter) => {
     setFilter(newFilter);
@@ -22,32 +27,37 @@ const ScheduleTable = () => {
     return salons.every(salon => salon.name === 'Descanso');
   };
 
+  const getSalonColumn = (salon) => {
+    return salon.name ? (
+      <SalonColumn salon={salon} />
+    ) : (
+      <div className="empty-salon"></div>
+    );
+  };
+
   return (
     <div className="schedule-container">
       <FilterButtons filter={filter} onFilterChange={handleFilterChange} />
 
       <div className="header-row">
         <div className="time-header">Horas</div>
-        {data[0]?.salons
-          .filter(salon => filter === 'Principal' ? salon.environment === 'Principal' : salon.environment === 'Secundario')
-          .map((salon, index) => (
-            <div key={index} className={`header-column ${salon.environment.toLowerCase()}-env`}>
-              {salon.environment} - {salon.name}
-            </div>
-          ))}
+        {data[0]?.salons.map((salon, index) => (
+          <div key={index} className={`header-column ${salon.environment.toLowerCase()}-env`}>
+            {salon.environment} - {salon.name}
+          </div>
+        ))}
       </div>
 
       {data.map((slot, index) => (
-        <div key={index} className="schedule-row">
+        <div 
+          key={index} 
+          className={`schedule-row ${isBreakTime(slot.salons) ? 'break-time' : ''}`}
+        >
           <div className="time-column">{slot.time}</div>
           {isBreakTime(slot.salons) ? (
             <BreakColumn />
           ) : (
-            slot.salons
-              .filter(salon => filter === 'Principal' ? salon.environment === 'Principal' : salon.environment === 'Secundario')
-              .map((salon, i) => (
-                <SalonColumn key={i} salon={salon} />
-              ))
+            slot.salons.map(salon => getSalonColumn(salon))
           )}
         </div>
       ))}
