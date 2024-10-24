@@ -35,25 +35,11 @@
 .schedule-row {
   display: flex;
   flex-wrap: wrap;
-
   font-weight: bold;
   text-align: center;
-
-
-  {{/* justify-content: center;
-  align-items: center; */}}
-
-
-
   justify-content: space-between;
   align-items: stretch;
-
-  
 }
-
-
-
-
 
 .time-column {
   width: 100%;
@@ -61,18 +47,18 @@
   padding: 15px;
   font-size: 20px;
   color: white;
-  {{/* background-color: #343a40; */}}
   color: white;
   display: flex;
- justify-content: center;
+  justify-content: center;
   align-items: center; 
 }
+
 .empty-salon {
   flex: 1;
   padding: 15px;
-  background-color: #f8f9fa; /* Color de fondo claro para los salones vacíos */
-  border-left: 1px solid #dee2e6; /* Igual que los salones llenos */
+  background-color: #1e1d1d;
+  border-left: 1px solid #dee2e6;
 }
 .schedule-row.break-time {
-  background-color: #D8B157; /* Color solo para filas de descanso */
+  background-color: #D8B157;
 }

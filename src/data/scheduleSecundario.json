@@ -27,16 +27,6 @@
         { "name": "Descanso", "speaker": "", "image": "", "topic": "", "environment": "" }
       ]
     },
-    {
-      "time": "3:00 - 5:25",
-      "salons": [
-
-        { "name": "Salón 3", "speaker": "Bruno Aybar/ Carlo Huamán", "image": "img/icongdg.png", "topic": "Construyendo tu primera aplicación movil con flutter", "environment": "Talleres" },
-        { "name": "Salón 4", "speaker": "Damián Siré", "image": "./speakers/damian.png", "topic": "Construyendo tu primera aplicación web moderna", "environment": "Talleres" },
-        { "name": "Salón 5", "speaker": "German Cayo", "image": "./speakers/german.jpg", "topic": "Fundamentos de Cloud Computing", "environment": "Talleres" }
-      
-      ]
-    },
     
     {
       "time": "5:40 - 6:00",
