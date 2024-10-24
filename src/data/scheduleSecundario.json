@@ -17,25 +17,6 @@
         { "name": "Salón 5", "speaker": "Yancel Salinas", "image": "./speakers/yancel.jfif", "topic": "Fundamentos de Python para ciencia de datos", "environment": "Talleres" }
       
       ]
-    },
-
-    {
-      "time": "1:15 - 3:00",
-      "salons": [
-        { "name": "Descanso", "speaker": "", "image": "", "topic": "", "environment": "" },
-        { "name": "Descanso", "speaker": "", "image": "", "topic": "", "environment": "" },
-        { "name": "Descanso", "speaker": "", "image": "", "topic": "", "environment": "" }
-      ]
-    },
-    
-    {
-      "time": "5:40 - 6:00",
-      "salons": [
-        { "name": "Salón 3", "speaker": "GDG Ica", "image": "img/icongdg.png", "topic": "Cierre / Clausura", "environment": "Talleres" },
-        { "name": "Salón 4", "speaker": "GDG Ica", "image": "img/icongdg.png", "topic": "Cierre / Clausura", "environment": "Talleres" },
-        { "name": "Salón 5", "speaker": "GDG Ica", "image": "img/icongdg.png", "topic": "Cierre / Clausura", "environment": "Talleres" }
-
-      ]
     }
 
 
