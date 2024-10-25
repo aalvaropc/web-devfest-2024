@@ -30,7 +30,7 @@
     {
       "time": "11:45 - 12:10",
       "salons": [
-        { "name": "Salón 1", "speaker": "Eduardo Ormeño", "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/jos%C3%A9_eduardo_orme%C3%B1o_meneses_zH4lD3V.jpg", "topic": "Crecimiento Profesional", "environment": "General" },
+        { "name": "Salón 1", "speaker": "Adrián Catalán", "image": "./speakers/adrianCatalan.jpg", "topic": "Deep Learning para desarrolladores de software", "environment": "General" },
         { "name": "Salón 2", "speaker": "Isabel Cordova", "image": "./speakers/isabel_cordova.jpg", "topic": "¿Cómo convertir una pasión en una carrera? De un hobbie a profesión", "environment": "General" }
       ]
     },
@@ -58,14 +58,14 @@
     {
       "time": "3:00 - 3:25",
       "salons": [
-        { "name": "Salón 1", "speaker": "Joel Ibaceta", "image": "./speakers/joel.jpg", "topic": "Por confirmar", "environment": "General" },
+        { "name": "Salón 1", "speaker": "Joel Ibaceta", "image": "./speakers/joel.jpg", "topic": "El futuro del trabajo en IT: De lo técnico a lo humano", "environment": "General" },
         { "name": "", "speaker": " ", "image": "", "topic": "", "environment": "General" }
       ]
     },
     {
       "time": "3:30 - 3:55",
       "salons": [
-        { "name": "Salón 1", "speaker": "Luis Landa", "image": "./speakers/luis_landa.png", "topic": "Las soft skills que todo ingeniero de software necesita", "environment": "General" },
+        { "name": "Salón 1", "speaker": "NTT DATA", "image": "./speakers/nttdata.png", "topic": "Por confirmar", "environment": "General" },
         { "name": "", "speaker": " ", "image": "", "topic": "", "environment": "General" }
       ]
     },

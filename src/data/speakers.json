@@ -33,17 +33,7 @@
       "twitter_url": "None",
       "modality": "in person"
     },
-    {
-      "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/jos%C3%A9_eduardo_orme%C3%B1o_meneses_zH4lD3V.jpg",
-      "speaker_name": "Eduardo Ormeño",
-      "speaker_desc": "GCE - GDG Organizer",
-      "speaker_session": "",
-      "fb_url": "None",
-      "github_url": "None",
-      "linkedin_url": "https://linkedin.com/in/jose-ormeño",
-      "twitter_url": "None",
-      "modality": "in person"
-    },
+
     {
       "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/damian.jpg",
       "speaker_name": "Damián Siré",
@@ -125,18 +115,7 @@
     },
 
 
-    
-    {
-      "speaker_image": "./speakers/luis_landa.png",
-      "speaker_name": "Luis Landa Girón",
-      "speaker_desc": "SAFe Scrum Master at Telefónica",
-      "speaker_session": "",
-      "fb_url": "",
-      "github_url": "",
-      "linkedin_url": "https://www.linkedin.com/in/luislanda/",
-      "twitter_url": "",
-      "modality": "in person"
-    },
+
     {
       "speaker_image": "./speakers/jimmy.jfif",
       "speaker_name": "Jimmy Dolores",
@@ -178,6 +157,17 @@
       "fb_url": "",
       "github_url": "",
       "linkedin_url": "https://pe.linkedin.com/in/sagoyanfisic",
+      "twitter_url": "",
+      "modality": "in person"
+    },
+    {
+      "speaker_image": "./speakers/adrianCatalan.jpg",
+      "speaker_name": "Adrian Catalan",
+      "speaker_desc": "Google Developer Expert",
+      "speaker_session": "",
+      "fb_url": "",
+      "github_url": "",
+      "linkedin_url": "https://linkedin.com/in/adriancatalan",
       "twitter_url": "",
       "modality": "in person"
     }
