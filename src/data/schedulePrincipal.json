@@ -1,15 +1,22 @@
 [
     {
-      "time": "10:00 - 10:10",
+      "time": "9:30 - 9:40",
       "salons": [
-        { "name": "Salón 1", "speaker": "GDG Ica", "image": "img/icongdg.png", "topic": "Introducción y Bienvenida al evento", "environment": "General" },
-        { "name": "Salón 2", "speaker": "GDG Ica", "image": "img/icongdg.png", "topic": "Introducción y Bienvenida al evento", "environment": "General" }
+        { "name": "Salón 1", "speaker": "GDG Ica", "image": "img/icongdg.png", "topic": "Inauguración DevFest Ica", "environment": "General" },
+        { "name": "Salón 2", "speaker": "GDG Ica", "image": "img/icongdg.png", "topic": "Inauguración DevFest Ica", "environment": "General" }
+      ]
+    },
+    {
+      "time": "9:45 - 10:10",
+      "salons": [
+        { "name": "Salón 1", "speaker": "Luis Landa", "image": "speakers/luis_landa.png", "topic": "Las soft skills que todo ingeniero de software necesita.", "environment": "General" },
+        { "name": "", "speaker": " ", "image": "", "topic": "", "environment": "General" }
       ]
     },
     {
       "time": "10:15 - 10:40",
       "salons": [
-        { "name": "Salón 1", "speaker": "Jimmy Dolores", "image": "speakers/jimmy.jfif", "topic": "Desarrollo Web", "environment": "General" },
+        { "name": "Salón 1", "speaker": "Jimmy Dolores", "image": "speakers/jimmy.jfif", "topic": "404: Impuestos no Encontrados – Evita Errores Fiscales con SUNAT", "environment": "General" },
         { "name": "Salón 2", "speaker": "Damián Siré", "image": "./speakers/damian.png", "topic": "De 0 a programador experto de Google (GDE)", "environment": "General" }
       ]
     },

@@ -46,7 +46,17 @@
       "modality": "in person"
     },
 
-    
+    {
+      "speaker_image": "./speakers/luis_landa.png",
+      "speaker_name": "Luis Landa Girón",
+      "speaker_desc": "SAFe Scrum Master at Telefónica",
+      "speaker_session": "",
+      "fb_url": "",
+      "github_url": "",
+      "linkedin_url": "https://www.linkedin.com/in/luislanda/",
+      "twitter_url": "",
+      "modality": "in person"
+    },
     {
       "speaker_image": "./speakers/isabel_cordova.jpg",
       "speaker_name": "Isabel Cordova",

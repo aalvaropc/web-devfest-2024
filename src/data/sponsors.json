@@ -19,6 +19,34 @@
       "name": "Cámara de Comercio",
       "link": "https://camaraica.org.pe/",
       "image": "https://github.com/aalvaropc/DevFestIcaW/blob/main/public/sponsors/camara_comercio.png?raw=true"
+    },
+    {
+      "name": "Data&Analytics",
+      "link": "https://datayanalytics.com/",
+      "image": "https://github.com/aalvaropc/DevFestIcaW/blob/main/public/sponsors/data_y_analitics.jpg?raw=true"
+    },
+    {
+      "name": "NTT DATA",
+      "link": "https://pe.nttdata.com/",
+      "image": "https://www.vitapointperu.com/wp-content/uploads/2022/04/2560px-NTT-Data-Logo.svg_.png"
+    },
+    {
+      "name": "Systematic",
+      "link": "https://systematic.edu.pe/",
+      "image": "https://github.com/aalvaropc/DevFestIcaW/blob/main/public/sponsors/systematic.jpg?raw=true"
+    },
+    {
+      "name": "Jetbrains",
+      "link": "https://www.jetbrains.com/es-es/",
+      "image": "https://static-00.iconduck.com/assets.00/jetbrains-icon-2048x1709-6zg5pm7c.png"
+    },
+    {
+      "name": "Mitocode",
+      "link": "https://systematic.edu.pe/",
+      "image": "https://media.licdn.com/dms/image/v2/C4E0BAQHS699MLBiLCA/company-logo_200_200/company-logo_200_200/0/1630564871356/mitocode_network_logo?e=2147483647&v=beta&t=rzuE8TdtOWDKJef7JeUbEWAuFL-Z6LrRMGJmG9jDosk"
     }
+
+
+   
   ]
 }
