@@ -1,21 +1,17 @@
 [
-  
-    {
-      "time": "10:00 - 10:10",
-      "salons": [
-        { "name": "Salón 4", "speaker": "GDG Ica", "image": "img/icongdg.png", "topic": "Introducción y Bienvenida al evento", "environment": "Talleres" },
-        { "name": "Salón 5", "speaker": "GDG Ica", "image": "img/icongdg.png", "topic": "Introducción y Bienvenida al evento", "environment": "Talleres" }
-      ]
-    },
-    {
-      "time": "10:15 - 1:10",
-      "salons": [
-        { "name": "Salón 4", "speaker": "Jimmy Dolores", "image": "./speakers/jimmy.jfif", "topic": "Construyendo tu primera pagina web", "environment": "Talleres" },
-        { "name": "Salón 5", "speaker": "Yancel Salinas", "image": "./speakers/yancel.jfif", "topic": "Fundamentos de Python para ciencia de datos", "environment": "Talleres" }
-      
-      ]
-    }
-
-
-  ]
+  {
+    "time": "10:00 - 10:10",
+    "salons": [
+      { "name": "Salón 4", "speaker": "GDG Ica", "image": "img/icongdg.png", "topic": "Introducción y Bienvenida al evento", "environment": "Talleres" },
+      { "name": "Salón 5", "speaker": "GDG Ica", "image": "img/icongdg.png", "topic": "Introducción y Bienvenida al evento", "environment": "Talleres" }
+    ]
+  },
+  {
+    "time": "10:40 - 1:15",
+    "salons": [
+      { "name": "Salón 4", "speaker": "Jimmy Dolores", "image": "./speakers/jimmy.jfif", "topic": "Construyendo tu primera pagina web", "environment": "Talleres" },
+      { "name": "Salón 5", "speaker": "Yancel Salinas", "image": "./speakers/yancel.jfif", "topic": "Fundamentos de Python para ciencia de datos", "environment": "Talleres" }     
+    ]
+  }
+]
   
