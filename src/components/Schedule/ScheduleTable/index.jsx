@@ -1,33 +1,24 @@
-import schedulePrincipal from '../../../data/schedulePrincipal.json';
-import scheduleSecundario from '../../../data/scheduleSecundario.json';
-import { useState, useEffect } from 'react';
 import FilterButtons from '../FilterButtons';
 import SalonColumn from '../SalonColumn';
 import BreakColumn from '../BreakColumn';
 import './ScheduleTable.css';
+import { useScheduleData } from './hooks/useScheduleData';
 
 
 const ScheduleTable = () => {
-  const [filter, setFilter] = useState('General');
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    if (filter === 'General') {
-      setData(schedulePrincipal);
-    } else {
-      setData(scheduleSecundario);
-    }
-  }, [filter]);
-
-  const handleFilterChange = (newFilter) => {
-    setFilter(newFilter);
-  };
+  const filters = [
+    { key: 'General', label: 'General' },
+    { key: 'Secundaria', label: 'Secundaria' },
+    { key: 'Secundario', label: 'Talleres' },
+  ];
+  
+  const { filter, data, changeFilter } = useScheduleData('General');
 
   const isBreakTime = (salons) => {
-    return salons.every(salon => salon.name === 'Descanso');
+    return salons.every((salon) => salon.name === 'Descanso');
   };
 
-  const getSalonColumn = (salon) => {
+  const renderSalonColumn = (salon) => {
     return salon.name ? (
       <SalonColumn salon={salon} />
     ) : (
@@ -37,7 +28,11 @@ const ScheduleTable = () => {
 
   return (
     <div className="schedule-container">
-      <FilterButtons filter={filter} onFilterChange={handleFilterChange} />
+      <FilterButtons 
+        filters={filters} 
+        activeFilter={filter} 
+        onFilterChange={changeFilter} 
+      />
 
       <div className="header-row">
         <div className="time-header">Horas</div>
@@ -49,15 +44,15 @@ const ScheduleTable = () => {
       </div>
 
       {data.map((slot, index) => (
-        <div 
-          key={index} 
+        <div
+          key={index}
           className={`schedule-row ${isBreakTime(slot.salons) ? 'break-time' : ''}`}
         >
           <div className="time-column">{slot.time}</div>
           {isBreakTime(slot.salons) ? (
             <BreakColumn />
           ) : (
-            slot.salons.map(salon => getSalonColumn(salon))
+            slot.salons.map((salon) => renderSalonColumn(salon))
           )}
         </div>
       ))}

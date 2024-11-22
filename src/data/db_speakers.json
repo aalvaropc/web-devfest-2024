@@ -1,0 +1,187 @@
+{
+    "speakers": [
+      {
+        "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/bruno%20aybar.jpg",
+        "speaker_name": "Bruno Aybar Guerrero",
+        "speaker_desc": "Senior Software Engineer at Shopify",
+        "speaker_session": "",
+        "fb_url": "None",
+        "github_url": "https://github.com/Bruno125",
+        "linkedin_url": "https://www.linkedin.com/in/bruno-aybar/",
+        "twitter_url": "https://twitter.com/brunoaybarg",
+        "modality": "in person"
+      },
+  
+      {
+        "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/germanCayo.jpg",
+        "speaker_name": "German Cayo",
+        "speaker_desc": "Presidente Capítulo Industrial y Sistemas - CD Ica",
+        "speaker_session": "",
+        "fb_url": "none",
+        "github_url": "none",
+        "linkedin_url": "https://linkedin.com/in/ggcayo",
+        "twitter_url": "none",
+        "modality": "in person"
+      },
+      {
+        "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/carlo-huaman.jpg",
+        "speaker_name": "Carlo Huamán",
+        "speaker_desc": "Google Developer Expert",
+        "speaker_session": "",
+        "fb_url": "None",
+        "github_url": "None",
+        "linkedin_url": "https://www.linkedin.com/in/tohure",
+        "twitter_url": "None",
+        "modality": "in person"
+      },
+  
+      {
+        "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/damian.jpg",
+        "speaker_name": "Damián Siré",
+        "speaker_desc": "Senior Developer",
+        "speaker_session": "",
+        "fb_url": "None",
+        "github_url": "https://github.com/damiansire",
+        "linkedin_url": "https://www.linkedin.com/in/damiansire",
+        "twitter_url": "https://twitter.com/damiansire",
+        "modality": "in person"
+      },
+  
+      {
+        "speaker_image": "./speakers/luis_landa.png",
+        "speaker_name": "Luis Landa Girón",
+        "speaker_desc": "SAFe Scrum Master at Telefónica",
+        "speaker_session": "",
+        "fb_url": "",
+        "github_url": "",
+        "linkedin_url": "https://www.linkedin.com/in/luislanda/",
+        "twitter_url": "",
+        "modality": "in person"
+      },
+      {
+        "speaker_image": "./speakers/isabel_cordova.jpg",
+        "speaker_name": "Isabel Cordova",
+        "speaker_desc": "Senior It Recluiter at Globant",
+        "speaker_session": "",
+        "fb_url": "None",
+        "github_url": "",
+        "linkedin_url": "https://www.linkedin.com/in/isabel-cordova-r",
+        "twitter_url": "",
+        "modality": "in person"
+      },
+  
+      
+  
+  
+      {
+        "speaker_image": "./speakers/santiago_carrillo.jpg",
+        "speaker_name": "Santiago Carrillo",
+        "speaker_desc": "Google Developer Expert",
+        "speaker_session": "",
+        "fb_url": "None",
+        "github_url": "",
+        "linkedin_url": "https://www.linkedin.com/in/sancarbar",
+        "twitter_url": "",
+        "modality": "in person"
+      },
+  
+  
+  
+      {
+        "speaker_image": "./speakers/joel.jpg",
+        "speaker_name": "Joel Ibaceta",
+        "speaker_desc": "CTO at Kwema Inc.",
+        "speaker_session": "",
+        "fb_url": "None",
+        "github_url": "https://github.com/joelibaceta",
+        "linkedin_url": "https://www.linkedin.com/in/joelibaceta",
+        "twitter_url": "https://twitter.com/joelibaceta",
+        "modality": "in person"
+      },
+  
+  
+  
+      {
+        "speaker_image": "./speakers/antuanet.jfif",
+        "speaker_name": "Antuanet Elias",
+        "speaker_desc": "It Recruiter at Intercorp",
+        "speaker_session": "",
+        "fb_url": "None",
+        "github_url": "",
+        "linkedin_url": "https://www.linkedin.com/in/antuanet-elias-ayllon",
+        "twitter_url": "https://twitter.com/joelibaceta",
+        "modality": "in person"
+      },
+  
+      {
+        "speaker_image": "./speakers/wilson_mendez.jpg",
+        "speaker_name": "Wilson Mendes",
+        "speaker_desc": "Google Developer Expert",
+        "speaker_session": "",
+        "fb_url": "None",
+        "github_url": "",
+        "linkedin_url": "https://www.linkedin.com/in/willmendesneto/",
+        "twitter_url": "",
+        "modality": "in person"
+      },
+  
+  
+  
+      {
+        "speaker_image": "./speakers/jimmy.jfif",
+        "speaker_name": "Jimmy Dolores",
+        "speaker_desc": "FrontEnd Architect - Organizer Angular Perú",
+        "speaker_session": "",
+        "fb_url": "",
+        "github_url": "",
+        "linkedin_url": "https://www.linkedin.com/in/jimyhuachodolores",
+        "twitter_url": "",
+        "modality": "in person"
+      },
+      {
+        "speaker_image": "./speakers/hansy2.png",
+        "speaker_name": "Hansy Schmitt",
+        "speaker_desc": "Fullstack and Mobile Engineer - Organizer GDG Cloud Lima",
+        "speaker_session": "",
+        "fb_url": "",
+        "github_url": "",
+        "linkedin_url": "https://www.linkedin.com/in/hansy-schmitt-camacho-a152329",
+        "twitter_url": "",
+        "modality": "in person"
+      },
+      {
+        "speaker_image": "./speakers/rafael.jfif",
+        "speaker_name": "Rafael Gonzales",
+        "speaker_desc": "CEO / Director Tecnológico at Netdreams",
+        "speaker_session": "",
+        "fb_url": "",
+        "github_url": "",
+        "linkedin_url": "https://www.linkedin.com/in/rafael-gonzález-otoya-93423988",
+        "twitter_url": "",
+        "modality": "in person"
+      },
+      {
+        "speaker_image": "./speakers/yancel.jfif",
+        "speaker_name": "Yancel Salinas",
+        "speaker_desc": "Production Engineer at Zebrands, Organizer GDG Open Lima",
+        "speaker_session": "",
+        "fb_url": "",
+        "github_url": "",
+        "linkedin_url": "https://pe.linkedin.com/in/sagoyanfisic",
+        "twitter_url": "",
+        "modality": "in person"
+      },
+      {
+        "speaker_image": "./speakers/adrianCatalan.jpg",
+        "speaker_name": "Adrian Catalan",
+        "speaker_desc": "Google Developer Expert",
+        "speaker_session": "",
+        "fb_url": "",
+        "github_url": "",
+        "linkedin_url": "https://linkedin.com/in/adriancatalan",
+        "twitter_url": "",
+        "modality": "in person"
+      }
+    ]
+  }
+  

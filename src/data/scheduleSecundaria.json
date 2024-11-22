@@ -1,0 +1,38 @@
+[
+  {
+    "time": "9:30 - 9:40",
+    "salons": [
+      { "name": "Salón 2", "speaker": "GDG Ica", "image": "img/icongdg.png", "topic": "Inauguración DevFest Ica", "environment": "General" }
+    ]
+  },
+  {
+    "time": "10:15 - 10:40",
+    "salons": [
+      { "name": "Salón 2", "speaker": "Damián Siré", "image": "./speakers/damian.png", "topic": "De 0 a programador experto de Google (GDE)", "environment": "General" }
+    ]
+  },
+  {
+    "time": "10:45 - 11:10",
+    "salons": [
+      { "name": "Salón 2", "speaker": "Santiago Carillo / Antuanet Elias / Will Mendes", "image": "img/icongdg.png", "topic": "Panel de Expertos: Cómo dar tus primeros pasos en el mundo digital", "environment": "General" }
+    ]
+  },
+  {
+    "time": "11:15 - 11:50",
+    "salons": [
+      { "name": "Salón 2", "speaker": "Break", "image": "img/icongdg.png", "topic": "", "environment": "General" }
+    ]
+  },
+  {
+    "time": "11:55 - 12:20",
+    "salons": [
+      { "name": "Salón 2", "speaker": "Isabel Cordova", "image": "./speakers/isabel_cordova.jpg", "topic": "¿Cómo convertir una pasión en una carrera? De un hobbie a profesión", "environment": "General" }
+    ]
+  },
+  {
+    "time": "12:30 - 12:55",
+    "salons": [
+      { "name": "Salón 2", "speaker": "Rafael Gonzales ", "image": "./speakers/rafael.jfif", "topic": "Usando Servicios de Google para crear videojuegos de éxito", "environment": "General" }
+    ]
+  }
+]

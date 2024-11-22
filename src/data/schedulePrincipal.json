@@ -2,120 +2,123 @@
     {
       "time": "9:30 - 9:40",
       "salons": [
-        { "name": "Salón 1", "speaker": "GDG Ica", "image": "img/icongdg.png", "topic": "Inauguración DevFest Ica", "environment": "General" },
-        { "name": "Salón 2", "speaker": "GDG Ica", "image": "img/icongdg.png", "topic": "Inauguración DevFest Ica", "environment": "General" }
+        { "name": "Salón 1", "speaker": "GDG Ica", "image": "img/icongdg.png", "topic": "Inauguración DevFest Ica", "environment": "General" }
+        
+      ]
+    },
+    {
+      "time": "9:30 - 9:40",
+      "salons": [
+        { "name": "Salón 1", "speaker": "Diego Rey Sun Han", "image": "speakers/diego_rey.jpg", "topic": "Bienvenida - Universidad Continental", "environment": "General" }
+        
+      ]
+    },
+    {
+      "time": "9:40 - 9:45",
+      "salons": [
+        { "name": "Salón 1", "speaker": "Eduardo Ojeda", "image": "speakers/eduardo_ojeda.jpg", "topic": "Bienvenida - Cámara de Comercio", "environment": "General" }
+        
       ]
     },
     {
       "time": "9:45 - 10:10",
       "salons": [
-        { "name": "Salón 1", "speaker": "Luis Landa", "image": "speakers/luis_landa.png", "topic": "Las soft skills que todo ingeniero de software necesita.", "environment": "General" },
-        { "name": "", "speaker": " ", "image": "", "topic": "", "environment": "General" }
+        { "name": "Salón 1", "speaker": "Luis Landa", "image": "speakers/luis_landa.png", "topic": "Las soft skills que todo ingeniero de software necesita.", "environment": "General" }
+        
       ]
     },
     {
       "time": "10:15 - 10:40",
       "salons": [
-        { "name": "Salón 1", "speaker": "Jimmy Dolores", "image": "speakers/jimmy.jfif", "topic": "404: Impuestos no Encontrados – Evita Errores Fiscales con SUNAT", "environment": "General" },
-        { "name": "Salón 2", "speaker": "Damián Siré", "image": "./speakers/damian.png", "topic": "De 0 a programador experto de Google (GDE)", "environment": "General" }
+        { "name": "Salón 1", "speaker": "Jimmy Dolores", "image": "speakers/jimmy.jfif", "topic": "404: Impuestos no Encontrados – Evita Errores Fiscales con SUNAT", "environment": "General" }
+        
       ]
     },
     {
       "time": "10:45 - 11:10",
       "salons": [
-        { "name": "Salón 1", "speaker": "German Cayo", "image": "./speakers/german.jpg", "topic": "IA para todos: Cómo empezar en el mundo de la Inteligencia Artificial", "environment": "General" },
-        { "name": "Salón 2", "speaker": "Santiago Carillo / Antuanet / Will Mendes", "image": "img/icongdg.png", "topic": "Panel de Expertos: Cómo dar tus primeros pasos en el mundo digital", "environment": "General" }
+        { "name": "Salón 1", "speaker": "Eduardo Ormeño", "image": "./speakers/eduardo.jpg", "topic": "Desarrollo web colaborativo en la nube con GitHub Codespaces y Copilot", "environment": "General" }
+        
       ]
     },
     {
       "time": "11:15 - 11:40",
       "salons": [
-        { "name": "Salón 1", "speaker": "Bruno Aybar", "image": "./speakers/brunoAybar.jpg", "topic": "Cómo iniciar en el desarrollo móvil en el 2024", "environment": "General" },
-        { "name": "Salón 2", "speaker": "Break", "image": "img/icongdg.png", "topic": "", "environment": "General" }
+        { "name": "Salón 1", "speaker": "Miguel Córdova", "image": "./speakers/miguel_cordova.jpg", "topic": "Transformando la Educación con Realidad Virtual e IA", "environment": "General" }
+        
       ]
     },
     {
       "time": "11:45 - 12:10",
       "salons": [
-        { "name": "Salón 1", "speaker": "Adrián Catalán", "image": "./speakers/adrianCatalan.jpg", "topic": "Deep Learning para desarrolladores de software", "environment": "General" },
-        { "name": "Salón 2", "speaker": "Isabel Cordova", "image": "./speakers/isabel_cordova.jpg", "topic": "¿Cómo convertir una pasión en una carrera? De un hobbie a profesión", "environment": "General" }
+        { "name": "Salón 1", "speaker": "Damián Siré", "image": "./speakers/damian.png", "topic": "IA en la web: Cómo integrar inteligencia artificial en tus aplicaciones web", "environment": "General" }
       ]
     },
     {
       "time": "12:15 - 12:40",
       "salons": [
-        { "name": "Salón 1", "speaker": "Damián Siré", "image": "./speakers/damian.png", "topic": "IA en la web: Cómo integrar inteligencia artificial en tus aplicaciones web", "environment": "General" },
-        { "name": "Salón 2", "speaker": "Rafael Gonzales ", "image": "./speakers/rafael.jfif", "topic": "Usando Servicios de Google para crear videojuegos de éxito", "environment": "General" }
+        { "name": "Salón 1", "speaker": "Bruno Aybar", "image": "./speakers/bruno_aybar.jpg", "topic": "¿Cómo iniciar en el desarrollo móvil en el 2024?", "environment": "General" }
       ]
     },
     {
       "time": "12:45 - 1:10",
       "salons": [
-        { "name": "Salón 1", "speaker": "Isabel Cordova", "image": "./speakers/isabel_cordova.jpg", "topic": "El perfecto candidato: ¿La IA o yo?", "environment": "General" },
-        { "name": "", "speaker": " ", "image": "", "topic": "", "environment": "General" }
+        { "name": "Salón 1", "speaker": "Noe Branagan", "image": "./speakers/noe_branagan.jpg", "topic": "Los skills que no aparecen en listados que necesitas para no fracasar como dev", "environment": "General" }
       ]
     },
     {
       "time": "1:15 - 3:00",
       "salons": [
-        { "name": "Descanso", "speaker": "", "image": "", "topic": "", "environment": "" },
         { "name": "Descanso", "speaker": "", "image": "", "topic": "", "environment": "" }
       ]
     },
+
     {
       "time": "3:00 - 3:25",
       "salons": [
-        { "name": "Salón 1", "speaker": "Joel Ibaceta", "image": "./speakers/joel.jpg", "topic": "El futuro del trabajo en IT: De lo técnico a lo humano", "environment": "General" },
-        { "name": "", "speaker": " ", "image": "", "topic": "", "environment": "General" }
+        {"name": "Salón 1", "speaker": "Hansy Smitch", "image": "./speakers/hansy2.png", "topic": "¡Despierta tu creatividad! Crea tu primera app increíble con Flutter", "environment": "General" }
       ]
     },
     {
       "time": "3:30 - 3:55",
       "salons": [
-        { "name": "Salón 1", "speaker": "NTT DATA", "image": "./speakers/nttdata.png", "topic": "Por confirmar", "environment": "General" },
-        { "name": "", "speaker": " ", "image": "", "topic": "", "environment": "General" }
+        { "name": "Salón 1", "speaker": "Isabel Cordova", "image": "./speakers/isabel_cordova.jpg", "topic": "El perfecto candidato: ¿La IA o yo?", "environment": "General" }
       ]
     },
     {
       "time": "4:00 - 4:25",
       "salons": [
-        { "name": "Salón 1", "speaker": "Santiago Carrillo", "image": "./speakers/santiago_carrillo.jpg", "topic": "Creación de aplicaciones de Android con agentes de Inteligencia Artificial", "environment": "General" },
-        { "name": "", "speaker": " ", "image": "", "topic": "", "environment": "General" }
+        { "name": "Salón 1", "speaker": "Santiago Carrillo", "image": "./speakers/santiago_carrillo.jpg", "topic": "Creación de aplicaciones de Android con agentes de Inteligencia Artificial", "environment": "General" }
       ]
     },
     {
       "time": "4:30 - 4:55",
       "salons": [
-        { "name": "Salón 1", "speaker": "Hansy Smitch", "image": "./speakers/hansy2.png", "topic": "¡Despierta tu creatividad! Crea tu primera app increíble con Flutter", "environment": "General" },
-        { "name": "", "speaker": " ", "image": "", "topic": "", "environment": "General" }
+        { "name": "Salón 1", "speaker": "Joel Ibaceta", "image": "./speakers/joel.jpg", "topic": "El futuro del trabajo en IT: De lo técnico a lo humano", "environment": "General" }
       ]
     },
     {
       "time": "5:00 - 5:25",
       "salons": [
-        { "name": "Salón 1", "speaker": "Antuanet Elias", "image": "./speakers/antuanet.jfif", "topic": "Claves para conseguir empleo en tecnología en 2024", "environment": "General" },
-        { "name": "", "speaker": " ", "image": "", "topic": "", "environment": "General" }
+        { "name": "Salón 1", "speaker": "Antuanet Elias", "image": "./speakers/antuanet.jfif", "topic": "Claves para conseguir empleo en tecnología en 2024", "environment": "General" }
       ]
     },
     {
       "time": "5:30 - 5:55",
       "salons": [
-        { "name": "Salón 1", "speaker": "Rafael Gonzales", "image": "./speakers/rafael.jfif", "topic": "Usando Servicios de Google para crear videojuegos de éxito", "environment": "General" },
-        { "name": "", "speaker": " ", "image": "", "topic": "", "environment": "General" }
+        { "name": "Salón 1", "speaker": "Rafael Gonzales", "image": "./speakers/rafael.jfif", "topic": "Usando Servicios de Google para crear videojuegos de éxito", "environment": "General" }
       ]
     },
     {
       "time": "6:00 - 6:25",
       "salons": [
-        { "name": "Salón 1", "speaker": "Will Mendes", "image": "./speakers/wilson_mendez.jpg", "topic": "¡Vamos a divertirnos jugando con IA en tu app de Angular usando Gemini!", "environment": "General" },
-        { "name": "", "speaker": " ", "image": "", "topic": "", "environment": "General" }
+        { "name": "Salón 1", "speaker": "Will Mendes", "image": "./speakers/wilson_mendez.jpg", "topic": "¡Vamos a divertirnos jugando con IA en tu app de Angular usando Gemini!", "environment": "General" }
       ]
     },
     {
       "time": "6:25 - 6:30",
       "salons": [
-        { "name": "Salón 1", "speaker": "GDG Ica", "image": "img/icongdg.png", "topic": "Cierre / Clausura", "environment": "General" },
-        { "name": "", "speaker": " ", "image": "", "topic": "", "environment": "General" }
+        { "name": "Salón 1", "speaker": "GDG Ica", "image": "img/icongdg.png", "topic": "Cierre / Clausura", "environment": "General" }
       ]
     }
 ]

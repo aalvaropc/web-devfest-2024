@@ -8,7 +8,6 @@
 .header-row {
   display: flex;
   flex-wrap: wrap;
-  {{/* border-bottom: 2px solid #ddd; */}}
   font-weight: bold;
   text-align: center;
   

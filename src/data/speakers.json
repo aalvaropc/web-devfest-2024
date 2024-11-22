@@ -12,29 +12,6 @@
       "modality": "in person"
     },
     {
-      "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/germanCayo.jpg",
-      "speaker_name": "German Cayo",
-      "speaker_desc": "Presidente Capítulo Industrial y Sistemas - CD Ica",
-      "speaker_session": "",
-      "fb_url": "none",
-      "github_url": "none",
-      "linkedin_url": "https://linkedin.com/in/ggcayo",
-      "twitter_url": "none",
-      "modality": "in person"
-    },
-    {
-      "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/carlo-huaman.jpg",
-      "speaker_name": "Carlo Huamán",
-      "speaker_desc": "Google Developer Expert",
-      "speaker_session": "",
-      "fb_url": "None",
-      "github_url": "None",
-      "linkedin_url": "https://www.linkedin.com/in/tohure",
-      "twitter_url": "None",
-      "modality": "in person"
-    },
-
-    {
       "speaker_image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/events/damian.jpg",
       "speaker_name": "Damián Siré",
       "speaker_desc": "Senior Developer",
@@ -171,15 +148,60 @@
       "modality": "in person"
     },
     {
-      "speaker_image": "./speakers/adrianCatalan.jpg",
-      "speaker_name": "Adrian Catalan",
-      "speaker_desc": "Google Developer Expert",
+      "speaker_image": "./speakers/diego_rey.jpg",
+      "speaker_name": "Diego Rey Sun Han",
+      "speaker_desc": "Gerente de Estrategia e Innovación",
       "speaker_session": "",
       "fb_url": "",
       "github_url": "",
-      "linkedin_url": "https://linkedin.com/in/adriancatalan",
+      "linkedin_url": "",
+      "twitter_url": "",
+      "modality": "in person"
+    },
+    {
+      "speaker_image": "./speakers/eduardo_ojeda.jpg",
+      "speaker_name": "Eduardo Ojeda",
+      "speaker_desc": "Presidente de la Cámara de Comercio Ica",
+      "speaker_session": "",
+      "fb_url": "",
+      "github_url": "",
+      "linkedin_url": "",
+      "twitter_url": "",
+      "modality": "in person"
+    },
+    {
+      "speaker_image": "./speakers/eduardo.jpg",
+      "speaker_name": "Eduardo Ormeño",
+      "speaker_desc": "GitHub Campus Expert",
+      "speaker_session": "",
+      "fb_url": "",
+      "github_url": "",
+      "linkedin_url": "",
+      "twitter_url": "",
+      "modality": "in person"
+    },
+    {
+      "speaker_image": "./speakers/miguel_cordova.jpg",
+      "speaker_name": "Miguel Cordova",
+      "speaker_desc": "Director de Tecnología Digitales U.C",
+      "speaker_session": "",
+      "fb_url": "",
+      "github_url": "",
+      "linkedin_url": "",
+      "twitter_url": "",
+      "modality": "in person"
+    },
+    {
+      "speaker_image": "./speakers/noe_branagan.jpg",
+      "speaker_name": "Noe Branagan",
+      "speaker_desc": "Chief Technology Officer at Ruffo",
+      "speaker_session": "",
+      "fb_url": "",
+      "github_url": "",
+      "linkedin_url": "",
       "twitter_url": "",
       "modality": "in person"
     }
+    
   ]
 }
